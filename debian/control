@@ -9,7 +9,7 @@ Homepage: https://github.com/micalet-dev/micalet-grub-theme
 
 Package: micalet-grub-theme
 Architecture: all
-Depends: grub2-common
+Depends: grub2-common, ${misc:Depends}
 Description: GRUB theme for Micalet GNU/Linux
  A minimal GRUB 2 theme for Micalet GNU/Linux, with a teal gradient
  background and a high-contrast selected menu entry.
