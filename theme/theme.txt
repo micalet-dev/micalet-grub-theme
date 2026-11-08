@@ -1,0 +1,50 @@
+# Micalet GRUB theme — minimal edition
+# Background: replace background.png to use another image if desired.
+
+# Global properties
+
+title-text: "MICALET"
+title-font: "Unifont Regular 16"
+title-color: "#F3F6F2"
+
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#0B3438"
+
+terminal-font: "Unifont Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# The existing grub.cfg supplies the four boot entries.
++ boot_menu {
+    left = 18%
+    top = 38%
+    width = 64%
+    height = 40%
+
+    item_font = "Unifont Regular 16"
+    selected_item_font = "Unifont Regular 16"
+    item_color = "#EAF1ED"
+    selected_item_color = "#103D3A"
+    selected_item_pixmap_style = "select_*.png"
+
+    item_height = 52
+    item_padding = 14
+    item_spacing = 10
+    item_icon_space = 0
+}
+
+# Keyboard hint
++ label {
+    left = 0
+    top = 89%
+    width = 100%
+    height = 24
+    align = "center"
+    text = "↑ ↓  Navegar     ·     INTRO  Iniciar"
+    color = "#D6E6E0"
+    font = "Unifont Regular 16"
+}

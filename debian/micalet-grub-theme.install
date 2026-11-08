@@ -1,0 +1,2 @@
+theme/* usr/share/grub/themes/micalet/
+debian/50-micalet-theme.cfg etc/default/grub.d/

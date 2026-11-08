@@ -1,0 +1,7 @@
+micalet-grub-theme (0.1) resolute; urgency=medium
+
+  * Initial release of the Micalet GRUB theme.
+  * Add a minimal gradient background and high-contrast menu selection.
+  * Provide GRUB defaults for installed Micalet systems.
+
+ -- Marcos <mcomechem@micalet.net>  Sun, 08 Nov 2026 11:45:00 +0100
